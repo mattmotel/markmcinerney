@@ -3,7 +3,7 @@ title: Mark McInerney
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: Research Papers
     output: true
   uploads:
     title: Uploads
