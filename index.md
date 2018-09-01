@@ -1,7 +1,7 @@
 ---
-title: Mark
-layout: page
+title: Homepage
 picture: "/uploads/mark.jpg"
+layout: page
 ---
 
 Hello
