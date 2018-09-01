@@ -4,28 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 <title>{{page.title}}</title>
 
 
 <style>
 
-body{font-family: 'Playfair Display', serif;}
+body{
+margin:2rem;
+font-family: 'Poppins', serif;
+background:#FFFFFA;
+color:#5F758E;
+}
+h1{font-size:2.5rem;}
+h2{font-size:2.25rem;}
+h3{font-size:2rem;}
+h4{font-size:1.5rem;}
+a{
+  color:#6665DD;
+  text-decoration: none;
+}
 
-.post-wrapper{  display: flex;}
+.post-wrapper{
+  display: flex;
+}
 
 .post{
-  border-top:1px solid gray;
+  border-top:1px solid #5F758E;
     flex-wrap: wrap;
-    width:45%;
-    margin:0 2.5%;
+    width:49%;
+    margin:0 1% 0 0;
 }
 .download{
   display: inline-block;
-  border:1px solid blue;
+  border:1px solid #6665DD;
   padding:1rem;
   border-radius: .25rem;
+}
+.download:hover{
+  background: #6665DD;
+  color: #FFFFFA;
+}
+
+.profile{
+  float:right;
+  width:25%;
+  border:1px solid black;
 }
 </style>
 
@@ -37,8 +62,9 @@ body{font-family: 'Playfair Display', serif;}
 
 <section class="intro">
 <h1>{{page.title}}</h1>
-
+<img src="{{page.picture}}" class="profile"/>
 {{ content }}
+
 </section>
 
 <section class="research">
@@ -47,7 +73,7 @@ body{font-family: 'Playfair Display', serif;}
   {% for post in site.posts %}
 
     <div class="post">
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <h4>{{ post.title }}</h4>
       {{ post.content }}
       <a href="{{ post.file }}" class="download"> Download me!</a>
     </div>

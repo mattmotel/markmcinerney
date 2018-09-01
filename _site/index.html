@@ -4,28 +4,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 <title>Mark</title>
 
 
 <style>
 
-body{font-family: 'Playfair Display', serif;}
+body{
+margin:2rem;
+font-family: 'Poppins', serif;
+background:#FFFFFA;
+color:#5F758E;
+}
+h1{font-size:2.5rem;}
+h2{font-size:2.25rem;}
+h3{font-size:2rem;}
+h4{font-size:1.5rem;}
+a{
+  color:#6665DD;
+  text-decoration: none;
+}
 
-.post-wrapper{  display: flex;}
+.post-wrapper{
+  display: flex;
+}
 
 .post{
-  border-top:1px solid gray;
+  border-top:1px solid #5F758E;
     flex-wrap: wrap;
-    width:45%;
-    margin:0 2.5%;
+    width:49%;
+    margin:0 1% 0 0;
 }
 .download{
   display: inline-block;
-  border:1px solid blue;
+  border:1px solid #6665DD;
   padding:1rem;
   border-radius: .25rem;
+}
+.download:hover{
+  background: #6665DD;
+  color: #FFFFFA;
+}
+
+.profile{
+  float:right;
+  width:25%;
+  border:1px solid black;
 }
 </style>
 
@@ -37,9 +62,11 @@ body{font-family: 'Playfair Display', serif;}
 
 <section class="intro">
 <h1>Mark</h1>
-
+<img src="/uploads/mark.jpg" class="profile"/>
 <p>Hello
-It’s me, Mark</p>
+It’s me, Mark
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris et felis facilisis dapibus a sit amet metus. In non nunc vel metus pretium gravida. Maecenas pharetra velit in pulvinar eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec blandit egestas enim, vitae hendrerit lacus lobortis non. Fusce aliquam facilisis ligula vel volutpat. Praesent rhoncus sed est in condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
+
 
 </section>
 
@@ -49,7 +76,7 @@ It’s me, Mark</p>
   
 
     <div class="post">
-      <h4><a href="/economics/2018/09/01/two.html">My Research</a></h4>
+      <h4>My Research</h4>
       <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches . in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code></p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
@@ -61,14 +88,14 @@ It’s me, Mark</p>
 <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a></p>
 
 
-      <a href="/hello/aaaapdf.pdf" class="download"> Download me!</a>
+      <a href="/uploads/pdf.pdf" class="download"> Download me!</a>
     </div>
 
 
   
 
     <div class="post">
-      <h4><a href="/economics/2018/08/01/one.html">One My Research</a></h4>
+      <h4>One My Research</h4>
       <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 
