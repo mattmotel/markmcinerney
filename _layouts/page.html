@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+<title>{{page.title}}</title>
+
+
+<style>
+
+body{font-family: 'Playfair Display', serif;}
+
+.post-wrapper{  display: flex;}
+
+.post{
+  border-top:1px solid gray;
+    flex-wrap: wrap;
+    width:45%;
+    margin:0 2.5%;
+}
+.download{
+  display: inline-block;
+  border:1px solid blue;
+  padding:1rem;
+  border-radius: .25rem;
+}
+</style>
+
+</head>
+
+
+
+<body class="wrap">
+
+<section class="intro">
+<h1>{{page.title}}</h1>
+
+{{ content }}
+</section>
+
+<section class="research">
+  <h2>Research</h2>
+<div class="post-wrapper">
+  {% for post in site.posts %}
+
+    <div class="post">
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      {{ post.content }}
+      <a href="{{ post.link }}" class="download"> Download me!</a>
+    </div>
+
+
+  {% endfor %}
+  </div>
+</section>
+
+</body>
+
+</html>
