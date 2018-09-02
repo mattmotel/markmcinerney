@@ -4,11 +4,8 @@ date: 2018-08-01 18:39:00 Z
 categories:
 - economics
 file: "/uploads/pdf.pdf"
-link: "http://google.com"
+link: http://google.com
 layout: post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+You’ll find this post in your `_posts` directory.
