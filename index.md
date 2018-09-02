@@ -1,8 +1,8 @@
 ---
 title: Homepage
-picture: "/uploads/mark.jpg"
-layout: page
+picture: "/uploads/mark2.jpg"
 cv: "/uploads/pdf.pdf"
+layout: page
 ---
 
 Hello
