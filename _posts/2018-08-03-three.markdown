@@ -4,7 +4,7 @@ date: 2018-08-03 18:39:00 Z
 categories:
 - economics
 file: "/uploads/pdf.pdf"
-link: "http://google.com"
+link: http://google.com
 layout: post
 ---
 
