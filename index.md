@@ -1,6 +1,5 @@
 ---
-title: Homepage
-layout: page
+title: About & Teaching
 cv: "/uploads/cv.pdf"
 picture: "/uploads/mark2.jpg"
 teaching:
@@ -20,6 +19,7 @@ teaching:
   arbitrary: Value 3
 - top-level: teaching 4
   arbitrary: Value 4
+layout: page
 ---
 
 Hello
