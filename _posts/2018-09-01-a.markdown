@@ -1,6 +1,6 @@
 ---
 title: Research A
-date: 2018-09-01 18:39:00 
+date: 2018-09-01 18:39:00 Z
 categories:
 - economics
 file: "/uploads/pdf.pdf"
