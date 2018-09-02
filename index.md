@@ -1,8 +1,27 @@
 ---
 title: Homepage
+layout: page
 cv: "/uploads/cv.pdf"
 picture: "/uploads/mark2.jpg"
-layout: page
+
+
+teaching:
+ - top-level: Teaching 1
+   arbitrary: Value 1
+   nested-teachings:
+    - nested: Associated teaching A
+      sub-arbitrary: Associated Value A
+    - nested: Another associate B
+      sub-arbitrary: with its associated value B
+ - top-level: Teaching 2
+   arbitrary: Value 2
+   nested-teachings:
+    - nested: Nested teaching 2A
+      sub-arbitrary: 2A nested's associate value
+ - top-level: Teaching 3
+   arbitrary: Value 3
+ - top-level: teaching 4
+   arbitrary: Value 4
 ---
 
 Hello

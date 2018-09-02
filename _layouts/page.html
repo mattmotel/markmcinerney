@@ -12,38 +12,67 @@
 <style>
 
 body{
-margin:2rem;
+margin:3rem 2rem;
 font-family: 'Poppins', serif;
 background:#FFFFFA;
-color:#5F758E;
+color:#1D3461;
+}
+.scrolling-box{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 h1{font-size:2.5rem;}
-h2{font-size:2.25rem;}
+h2{font-size:2.25rem;
+  border-top:1px solid #1D3461;}
 h3{font-size:2rem;}
 h4{font-size:1.5rem;}
 a{
-  color:#6665DD;
+  color:#1D3461;
   text-decoration: none;
 }
 
 .post-wrapper{
   display: flex;
 }
+.page-section{padding-top: 80px; margin-top: -80px;}
+nav{
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background: #1D3461;
+  color:#FFFFFA;
+  font-size:.75rem;
+  padding:.75rem 2rem;
+
+}
+nav a{
+  color:#FFFFFA;
+  padding:.5rem;
+  display: inline-block;
+  transition: .5s all;
+  border-bottom:5px solid transparent;
+}
+nav a:hover{
+  color: #F2E863;
+  border-bottom:5px solid #F2E863;
+}
 
 .post{
-  border-top:1px solid #5F758E;
     flex-wrap: wrap;
     width:49%;
     margin:0 1% 0 0;
 }
 .download{
   display: inline-block;
-  border:1px solid #6665DD;
+  border:1px solid #1D3461;
   padding:1rem;
   border-radius: .25rem;
 }
 .download:hover{
-  background: #6665DD;
+  background: #1D3461;
   color: #FFFFFA;
 }
 
@@ -51,6 +80,8 @@ a{
   float:right;
   width:25%;
   border:1px solid black;
+  min-width:150px;
+  max-width:500px;
 }
 </style>
 
@@ -60,14 +91,21 @@ a{
 
 <body class="wrap">
 
-<section class="intro">
-<h1>{{page.title}}</h1>
+<nav>
+  <a href="#about">Mark McInerney</a>
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+  <a href="{{ page.cv }}" class="nav">Download CV</a>
+</nav>
+<div class="scrolling-box">
+<section class="about page-section" id="about">
+  <h2>About</h2>
+
 <img src="{{page.picture}}" class="profile"/>
 {{ content }}
-  <a href="{{ page.cv }}" class="download">CV</a>
 </section>
 
-<section class="research">
+<section class="research page-section" id="research">
   <h2>Research</h2>
 <div class="post-wrapper">
   {% for post in site.posts %}
@@ -75,8 +113,14 @@ a{
     <div class="post">
       <h4>{{ post.title }}</h4>
       {{ post.content }}
-      <a href="{{ post.file }}" class="download"> Download me!</a>
-      <a href="{{ post.link }}" class="download"> Link me!</a>
+
+      {% if post.file %}
+      <a href="{{ post.file }}" class="download">Download</a>
+      {% endif %}
+
+      {% if post.link %}
+      <a href="{{ post.link }}" class="download">View</a>
+      {% endif %}
     </div>
 
 
@@ -84,13 +128,21 @@ a{
   </div>
 </section>
 
-<section class="research">
+<section class="teaching  page-section" id="teaching">
   <h2>Teaching</h2>
-  
-<div class="post-wrapper">
 
-  </div>
+<ul>{% for teaching in page.teaching %}
+  <li>{{ teaching.top-level }}: {{ teaching.arbitrary }}{% if teaching.nested-teachings %}
+    <ul>
+    {% for nestedteaching in teaching.nested-teachings %}  <li>{{ nestedteaching.nested }}: {{ nestedteaching.sub-arbitrary }}</li>
+    {% endfor %}</ul>
+  {% endif %}</li>{% endfor %}
+</ul>
+
+
+
 </section>
+</div>
 
 </body>
 

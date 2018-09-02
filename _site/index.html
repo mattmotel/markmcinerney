@@ -12,38 +12,67 @@
 <style>
 
 body{
-margin:2rem;
+margin:3rem 2rem;
 font-family: 'Poppins', serif;
 background:#FFFFFA;
-color:#5F758E;
+color:#1D3461;
+}
+.scrolling-box{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 h1{font-size:2.5rem;}
-h2{font-size:2.25rem;}
+h2{font-size:2.25rem;
+  border-top:1px solid #1D3461;}
 h3{font-size:2rem;}
 h4{font-size:1.5rem;}
 a{
-  color:#6665DD;
+  color:#1D3461;
   text-decoration: none;
 }
 
 .post-wrapper{
   display: flex;
 }
+.page-section{padding-top: 80px; margin-top: -80px;}
+nav{
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background: #1D3461;
+  color:#FFFFFA;
+  font-size:.75rem;
+  padding:.75rem 2rem;
+
+}
+nav a{
+  color:#FFFFFA;
+  padding:.5rem;
+  display: inline-block;
+  transition: .5s all;
+  border-bottom:5px solid transparent;
+}
+nav a:hover{
+  color: #F2E863;
+  border-bottom:5px solid #F2E863;
+}
 
 .post{
-  border-top:1px solid #5F758E;
     flex-wrap: wrap;
     width:49%;
     margin:0 1% 0 0;
 }
 .download{
   display: inline-block;
-  border:1px solid #6665DD;
+  border:1px solid #1D3461;
   padding:1rem;
   border-radius: .25rem;
 }
 .download:hover{
-  background: #6665DD;
+  background: #1D3461;
   color: #FFFFFA;
 }
 
@@ -51,6 +80,8 @@ a{
   float:right;
   width:25%;
   border:1px solid black;
+  min-width:150px;
+  max-width:500px;
 }
 </style>
 
@@ -60,67 +91,72 @@ a{
 
 <body class="wrap">
 
-<section class="intro">
-<h1>Homepage</h1>
+<nav>
+  <a href="#about">Mark McInerney</a>
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+  <a href="/uploads/cv.pdf" class="nav">Download CV</a>
+</nav>
+<div class="scrolling-box">
+<section class="about page-section" id="about">
+  <h2>About</h2>
+
 <img src="/uploads/mark2.jpg" class="profile"/>
 <p>Hello
 It’s me, <strong>Mark</strong>
 Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecenas ac mauris et felis facilisis dapibus a sit amet metus. In non nunc vel metus pretium gravida. Maecenas pharetra velit in pulvinar eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec blandit egestas enim, vitae hendrerit lacus lobortis non. Fusce aliquam facilisis ligula vel volutpat. Praesent rhoncus sed est in condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
 
-  <a href="/uploads/cv.pdf" class="download">CV</a>
 </section>
 
-<section class="research">
+<section class="research page-section" id="research">
   <h2>Research</h2>
 <div class="post-wrapper">
   
 
     <div class="post">
-      <h4>Research 2</h4>
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches . in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a></p>
+      <h4>Research A</h4>
+      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
 
 
-      <a href="/uploads/pdf.pdf" class="download"> Download me!</a>
-      <a href="http://google.com" class="download"> Link me!</a>
+      
+      <a href="/uploads/pdf.pdf" class="download">Download</a>
+      
+
+      
+      <a href="http://google.com" class="download">View</a>
+      
     </div>
 
 
   
 
     <div class="post">
-      <h4>Research 2</h4>
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches . in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code></p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a></p>
+      <h4>Research B</h4>
+      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
 
 
-      <a href="/uploads/pdf.pdf" class="download"> Download me!</a>
-      <a href="http://google.com" class="download"> Link me!</a>
+      
+      <a href="/uploads/pdf.pdf" class="download">Download</a>
+      
+
+      
     </div>
 
 
   
 
     <div class="post">
-      <h4>Number 1</h4>
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory.</p>
+      <h4>Research C</h4>
+      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
 
-      <a href="/uploads/pdf.pdf" class="download"> Download me!</a>
-      <a href="http://google.com" class="download"> Link me!</a>
+
+      
+      <a href="/uploads/pdf.pdf" class="download">Download</a>
+      
+
+      
+      <a href="http://google.com" class="download">View</a>
+      
     </div>
 
 
@@ -128,13 +164,29 @@ Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecen
   </div>
 </section>
 
-<section class="research">
+<section class="teaching  page-section" id="teaching">
   <h2>Teaching</h2>
-  
-<div class="post-wrapper">
 
-  </div>
+<ul>
+  <li>Teaching 1: Value 1
+    <ul>
+      <li>Associated teaching A: Associated Value A</li>
+      <li>Another associate B: with its associated value B</li>
+    </ul>
+  </li>
+  <li>Teaching 2: Value 2
+    <ul>
+      <li>Nested teaching 2A: 2A nested's associate value</li>
+    </ul>
+  </li>
+  <li>Teaching 3: Value 3</li>
+  <li>teaching 4: Value 4</li>
+</ul>
+
+
+
 </section>
+</div>
 
 </body>
 

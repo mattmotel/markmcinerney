@@ -1,0 +1,11 @@
+---
+title: Research A
+date: 2018-09-01 18:39:00 
+categories:
+- economics
+file: "/uploads/pdf.pdf"
+link: http://google.com
+layout: post
+---
+
+Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.
