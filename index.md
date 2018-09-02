@@ -1,7 +1,7 @@
 ---
 title: Homepage
 picture: "/uploads/mark2.jpg"
-cv: "/uploads/cv.pdf"
+cvpdf: "/uploads/cv.pdf"
 layout: page
 ---
 
