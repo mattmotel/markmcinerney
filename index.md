@@ -2,6 +2,7 @@
 title: Homepage
 picture: "/uploads/mark.jpg"
 layout: page
+cv: "/uploads/pdf.pdf"
 ---
 
 Hello
