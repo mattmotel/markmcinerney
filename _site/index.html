@@ -23,11 +23,10 @@ color:#1D3461;
 }
 h1{font-size:2.5rem;}
 h2{
-  border-top:1px solid #1D3461;
   text-transform: uppercase;
   letter-spacing: .4rem;
   font-size:.75rem;
-  margin:4rem 0;
+  margin:5rem 0;
   padding:1rem 0;
 }
 h3{font-size:2rem;}
@@ -37,9 +36,7 @@ a{
   text-decoration: none;
 }
 
-.post-wrapper{
-  display: flex;
-}
+
 .page-section{padding-top: 80px; margin-top: -80px;}
 nav{
   text-transform: uppercase;
@@ -65,19 +62,20 @@ nav a:hover{
   color: #F2E863;
   border-bottom:5px solid #F2E863;
 }
+.post-wrapper{
 
+}
 .post{
-    flex-wrap: wrap;
-    width:49%;
-    margin:0 1% 0 0;
+
+    max-width:800px;
+
 }
 .download{
   display: inline-block;
   border:1px solid #1D3461;
-  padding:1.5rem;
+  padding:1rem;
   border-radius: .25rem;
   text-transform: uppercase;
-  letter-spacing: .4rem;
   font-size:.75rem;
   text-align: center;
   margin:0;
@@ -90,10 +88,13 @@ nav a:hover{
 
 .profile{
   float:right;
-  width:25%;
+  width:50%;
   border:1px solid black;
-  min-width:150px;
-  max-width:500px;
+  min-width:300px;
+  max-width:700px;
+}
+.clear{
+  clear: both;
 }
 </style>
 
@@ -114,10 +115,10 @@ nav a:hover{
   <h2>About</h2>
 
 <img src="/uploads/mark2.jpg" class="profile"/>
-<p>Hello
-It’s me, <strong>Mark</strong>
-Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecenas ac mauris et felis facilisis dapibus a sit amet metus. In non nunc vel metus pretium gravida. Maecenas pharetra velit in pulvinar eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec blandit egestas enim, vitae hendrerit lacus lobortis non. Fusce aliquam facilisis ligula vel volutpat. Praesent rhoncus sed est in condimentum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
+<p>I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in areas Health Economics, Applied Microeconomics and Labor Economics. My research focuses public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.</p>
 
+
+<div class="clear"></div>
 </section>
 
 <section class="research page-section" id="research">
@@ -126,31 +127,16 @@ Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecen
   
 
     <div class="post">
-      <h4>Research A</h4>
-      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
+      <h4>Medicaid Expansion and the Opioid Epidemic: How does increasing health insurance impact the crisis?</h4>
+      <p>This study examines the impact of expanded health insurance coverage, resulting from the Patient Protection and Affordable Care Act of 2010, on opioid related mortality. I utilize variation in states’ decisions to expand Medicaid, in the timing of expansion and in the pre-policy uninsured rate at the state and county level. Opioid related mortality data are examined from 1999-2016 using the multiple cause of death files obtained from the Centers for Disease Control. My findings suggest the implementation of Medicaid expansion resulted in about a 30% reduction in heroin deaths, a 26% reduction in other unspecified narcotics deaths and a 14.5% increase in methadone related deaths. My study builds on recent work that shows increases in prescriptions to treat opioid use disorder in expanding states relative to non-expanding states.</p>
 
 
       
-      <a href="/uploads/pdf.pdf" class="download">Download</a>
+      <a href="http://web2.uconn.edu/economics/working/2017-23.pdf" class="download">Download</a>
       
 
       
-      <a href="http://google.com" class="download">View</a>
-      
-    </div>
-
-
-  
-
-    <div class="post">
-      <h4>Research B</h4>
-      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
-
-
-      
-      <a href="/uploads/pdf.pdf" class="download">Download</a>
-      
-
+      <a href="https://ideas.repec.org/p/uct/uconnp/2017-23.html" class="download">View</a>
       
     </div>
 
@@ -158,8 +144,23 @@ Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecen
   
 
     <div class="post">
-      <h4>Research C</h4>
-      <p>Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.</p>
+      <h4>The Earned Income Tax Credit, Poverty, and Health</h4>
+      <p>By David Simon, PhD, and Mark McInerney of the Department of Economics at the University of Connecticut, and Sarah Goodell, an independent health policy consultant</p>
+
+
+      
+      <a href="/uploads/pdf.pdf" class="download">Download</a>
+      
+
+      
+    </div>
+
+
+  
+
+    <div class="post">
+      <h4>Opioid Use Disorder Treatment and Mortality: Evidence from Variation in Services Offered</h4>
+      <p>In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality.</p>
 
 
       
@@ -180,15 +181,16 @@ Lorem ipsum <strong>dolor</strong> sit amet, consectetur adipiscing elit. Maecen
   <h2>Teaching</h2>
 
 <ul>
-  <li>Teaching 1: Value 1
+  <li>Instructor, University of Connecticut: Value 1
     <ul>
-      <li>Associated teaching A: Associated Value A</li>
+      <li>ECON 1201 Honors: Principles of Microeconomics</li>
       <li>Another associate B: with its associated value B</li>
     </ul>
   </li>
-  <li>Teaching 2: Value 2
+  <li>Teaching Assistant, University of Connecticut: Value 2
     <ul>
-      <li>Nested teaching 2A: 2A nested's associate value</li>
+      <li>ECON 1201: Principles of Microeconomics</li>
+      <li>ECON 1202: Principles of Macroeconomics</li>
     </ul>
   </li>
   <li>Teaching 3: Value 3</li>
