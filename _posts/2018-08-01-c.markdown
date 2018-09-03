@@ -1,5 +1,6 @@
 ---
-title: Research C
+title: 'Opioid Use Disorder Treatment and Mortality: Evidence from Variation in Services
+  Offered'
 date: 2018-08-01 18:39:00 Z
 categories:
 - economics
@@ -8,4 +9,4 @@ link: http://google.com
 layout: post
 ---
 
-Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.
+In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality. 
