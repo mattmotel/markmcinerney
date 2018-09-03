@@ -1,5 +1,5 @@
 ---
-title: Research B
+title: The Earned Income Tax Credit, Poverty, and Health
 date: 2018-08-03 18:39:00 Z
 categories:
 - economics
@@ -8,4 +8,4 @@ link:
 layout: post
 ---
 
-Quisque neque sapien, sagittis laoreet posuere vel, blandit vel tortor. Maecenas iaculis, leo in viverra finibus, purus odio hendrerit lorem, at feugiat eros arcu in ante. Duis purus libero, iaculis quis tortor et, imperdiet efficitur libero. Mauris neque lorem, lobortis eu varius vel, pharetra at arcu. Morbi blandit ex leo, non lacinia nisi tincidunt id. Nulla tincidunt tortor at mollis tincidunt.
+By David Simon, PhD, and Mark McInerney of the Department of Economics at the University of Connecticut, and Sarah Goodell, an independent health policy consultant 
