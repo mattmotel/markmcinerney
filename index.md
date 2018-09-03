@@ -3,18 +3,18 @@ title: About & Teaching
 cv: "/uploads/cv.pdf"
 picture: "/uploads/mark2.jpg"
 teaching:
-- top-level: Teaching 1
+- top-level: Instructor, University of Connecticut, September 2017-present
   arbitrary: Value 1
   nested-teachings:
-  - nested: Associated teaching A
+  - nested: ECON 1201 Honors  - Principles of Microeconomics
     sub-arbitrary: Associated Value A
   - nested: Another associate B
     sub-arbitrary: with its associated value B
-- top-level: Teaching 2
+- top-level: Teaching Assistant, University of Connecticut
   arbitrary: Value 2
   nested-teachings:
-  - nested: Nested teaching 2A
-    sub-arbitrary: 2A nested's associate value
+  - nested: ECON 1201 - Principles of Microeconomics
+    sub-arbitrary: ECON 1202 - Principles of Macroeconomics
 - top-level: Teaching 3
   arbitrary: Value 3
 - top-level: teaching 4
