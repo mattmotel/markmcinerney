@@ -4,7 +4,7 @@ title: 'Medicaid Expansion and the Opioid Epidemic: How does increasing health i
 date: 2018-09-01 18:39:00 Z
 categories:
 - economics
-file: "/uploads/pdf.pdf"
+file: http://web2.uconn.edu/economics/working/2017-23.pdf
 link: https://ideas.repec.org/p/uct/uconnp/2017-23.html
 layout: post
 ---
