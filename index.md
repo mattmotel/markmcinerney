@@ -4,7 +4,6 @@ cv: "/uploads/cv.pdf"
 picture: "/uploads/mark2.jpg"
 teaching:
 - top-level: Instructor, University of Connecticut
-  arbitrary: 
   nested-teachings:
   - nested: ECON 1201 Honors
     sub-arbitrary: Principles of Microeconomics
