@@ -19,8 +19,6 @@ teaching:
     sub-arbitrary: Principles of Macroeconomics
 - top-level: Teaching evaluations are available upon request
   arbitrary: 
-- top-level: teaching 4
-  arbitrary: Value 4
 layout: page
 ---
 
