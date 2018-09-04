@@ -24,5 +24,5 @@ teaching:
 layout: page
 ---
 
-I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in areas Health Economics, Applied Microeconomics and Labor Economics. My research focuses public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.
+I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in areas Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.
 
