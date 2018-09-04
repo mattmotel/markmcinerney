@@ -8,8 +8,6 @@ teaching:
   nested-teachings:
   - nested: ECON 1201 Honors
     sub-arbitrary: Principles of Microeconomics
-  - nested: 
-    sub-arbitrary: 
 - top-level: Teaching Assistant, University of Connecticut
   arbitrary: 
   nested-teachings:
