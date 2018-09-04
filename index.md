@@ -18,7 +18,7 @@ teaching:
   - nested: ECON 1202
     sub-arbitrary: Principles of Macroeconomics
 - top-level: Teaching evaluations are available upon request
-  arbitrary: Value 3
+  arbitrary: 
 - top-level: teaching 4
   arbitrary: Value 4
 layout: page
