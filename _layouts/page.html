@@ -26,8 +26,8 @@ h2{
   text-transform: uppercase;
   letter-spacing: .4rem;
   font-size:.75rem;
-  margin:5rem 0;
-  padding:1rem 0;
+  margin:3rem 0 .25rem 0;
+  padding:0;
 }
 h3{font-size:2rem;}
 h4{font-size:1.5rem;}
@@ -73,7 +73,7 @@ nav a:hover{
 .download{
   display: inline-block;
   border:1px solid #1D3461;
-  padding:1rem;
+  padding:.5rem;
   border-radius: .25rem;
   text-transform: uppercase;
   font-size:.75rem;
@@ -146,14 +146,14 @@ nav a:hover{
   <h2>Teaching</h2>
 
 <ul>{% for teaching in page.teaching %}
-  <li>{{ teaching.top-level }}: {{ teaching.arbitrary }}{% if teaching.nested-teachings %}
+  <li>{{ teaching.top-level }} {{ teaching.arbitrary }}{% if teaching.nested-teachings %}
     <ul>
     {% for nestedteaching in teaching.nested-teachings %}  <li>{{ nestedteaching.nested }}: {{ nestedteaching.sub-arbitrary }}</li>
     {% endfor %}</ul>
   {% endif %}</li>{% endfor %}
 </ul>
 
-
+<a href="{{ page.cv }}" class="download">Download CV</a>
 
 </section>
 </div>
