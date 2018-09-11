@@ -7,4 +7,4 @@ categories:
 layout: post
 ---
 
-Work in Process. In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality. 
+*Work in Process.* In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality. 
