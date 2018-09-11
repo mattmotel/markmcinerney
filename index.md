@@ -1,6 +1,6 @@
 ---
 title: About & Teaching
-cv: "/uploads/cv.pdf"
+cv: "/uploads/CV.pdf"
 picture: "/uploads/mark2.jpg"
 teaching:
 - top-level: Instructor, University of Connecticut
