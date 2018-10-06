@@ -88,14 +88,42 @@ nav a:hover{
 
 .profile{
   float:right;
-  width:50%;
+  width:30%;
   border:1px solid black;
+  margin-left:4rem;
   min-width:300px;
   max-width:700px;
 }
+
 .clear{
   clear: both;
 }
+.desktop-hide{
+  display: none;
+}
+
+@media  (max-width: 640px)
+{
+  body{
+    margin:2rem;
+  }
+  .profile{
+    float:none;
+    width:100%;
+    margin: auto;
+  }
+  nav{
+    letter-spacing: .15rem;
+    padding:.5rem;
+  }
+  .mobile-hide{
+    display: none;
+  }
+  .desktop-hide{
+    display:inline;
+  }
+}
+
 </style>
 
 </head>
@@ -105,22 +133,22 @@ nav a:hover{
 <body class="wrap">
 
 <nav>
-  <a href="#about">Mark McInerney</a>
+  <a href="#about" class="mobile-hide">Mark McInerney</a>
   <a href="#research">Research</a>
   <a href="#teaching">Teaching</a>
   <a href="/uploads/cv.pdf" class="nav">Download CV</a>
 </nav>
 <div class="scrolling-box">
 <section class="about page-section" id="about">
-  <h2>About</h2>
+  <h2>About <span class="desktop-hide">Mark McInerney</span></h2>
 
 <img src="/uploads/mark2.jpg" class="profile"/>
-<p>I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in areas Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.</p>
+<p>I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in the areas of Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic. I will be attending the ASSA Annual Meeting in January 2019.</p>
 
 
-<div class="clear"></div>
+
 </section>
-
+<div class="clear"></div>
 <section class="research page-section" id="research">
   <h2>Research</h2>
 <div class="post-wrapper">
@@ -128,15 +156,14 @@ nav a:hover{
 
     <div class="post">
       <h4>Medicaid Expansion and the Opioid Epidemic: How does increasing health insurance impact the crisis?</h4>
-      <p>This study examines the impact of expanded health insurance coverage, resulting from the Patient Protection and Affordable Care Act of 2010, on opioid related mortality. I utilize variation in states’ decisions to expand Medicaid, in the timing of expansion and in the pre-policy uninsured rate at the state and county level. Opioid related mortality data are examined from 1999-2016 using the multiple cause of death files obtained from the Centers for Disease Control. My findings suggest the implementation of Medicaid expansion resulted in about a 30% reduction in heroin deaths, a 26% reduction in other unspecified narcotics deaths and a 14.5% increase in methadone related deaths. My study builds on recent work that shows increases in prescriptions to treat opioid use disorder in expanding states relative to non-expanding states.</p>
+      <p><em>Under Review, Journal of Policy Analysis and Management</em>.
+This study examines the impact of expanded health insurance coverage, resulting from the Patient Protection and Affordable Care Act of 2010, on opioid related mortality. I utilize variation in states’ decisions to expand Medicaid, in the timing of expansion and in the pre-policy uninsured rate at the state and county level. Opioid related mortality data are examined from 1999-2016 using the multiple cause of death files obtained from the Centers for Disease Control. My findings suggest the implementation of Medicaid expansion resulted in about a 30% reduction in heroin deaths, a 26% reduction in other unspecified narcotics deaths and a 14.5% increase in methadone related deaths. My study builds on recent work that shows increases in prescriptions to treat opioid use disorder in expanding states relative to non-expanding states.</p>
 
 
       
-      <a href="http://web2.uconn.edu/economics/working/2017-23.pdf" class="download">Download</a>
+      <a href="/uploads/Medicaid%20Expansion%20and%20the%20Opioid%20Epidemic%20-%20How%20does%20health%20insurance%20impact%20the%20crisis.pdf" class="download">Download</a>
       
 
-      
-      <a href="https://ideas.repec.org/p/uct/uconnp/2017-23.html" class="download">View</a>
       
     </div>
 
@@ -145,13 +172,14 @@ nav a:hover{
 
     <div class="post">
       <h4>The Earned Income Tax Credit, Poverty, and Health</h4>
-      <p>By David Simon, PhD, and Mark McInerney of the Department of Economics at the University of Connecticut, and Sarah Goodell, an independent health policy consultant</p>
+      <p><em>Health Affairs</em> Policy Brief,
+With David Simon and Sarah Goodell</p>
 
 
       
-      <a href="/uploads/pdf.pdf" class="download">Download</a>
-      
 
+      
+      <a href="https://www.healthaffairs.org/do/10.1377/hpb20180817.769687/full/" class="download">View</a>
       
     </div>
 
@@ -160,15 +188,11 @@ nav a:hover{
 
     <div class="post">
       <h4>Opioid Use Disorder Treatment and Mortality: Evidence from Variation in Services Offered</h4>
-      <p>In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality.</p>
+      <p><em>Work in Process.</em> In this study, I examine the impact that treatment facilities are having on the opioid related death rate within the counties they are located in. I utilize variation in the location of substance abuse treatment facilities and variation in the services offered and insurance type accepted by those facilities to generate causal estimates of the impact of these services on opioid overdose mortality.</p>
 
 
       
-      <a href="/uploads/pdf.pdf" class="download">Download</a>
-      
 
-      
-      <a href="http://google.com" class="download">View</a>
       
     </div>
 
@@ -181,12 +205,12 @@ nav a:hover{
   <h2>Teaching</h2>
 
 <ul>
-  <li>Instructor, University of Connecticut 
+  <li>Instructor, University of Connecticut: Fall 2018, Spring 2018 and Fall 2017 
     <ul>
       <li>ECON 1201 Honors: Principles of Microeconomics</li>
     </ul>
   </li>
-  <li>Teaching Assistant, University of Connecticut 
+  <li>Teaching Assistant, University of Connecticut: Spring 2017, Fall 2016 and Spring 2016 
     <ul>
       <li>ECON 1201: Principles of Microeconomics</li>
       <li>ECON 1202: Principles of Macroeconomics</li>

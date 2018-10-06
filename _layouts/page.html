@@ -88,14 +88,42 @@ nav a:hover{
 
 .profile{
   float:right;
-  width:50%;
+  width:30%;
   border:1px solid black;
+  margin-left:4rem;
   min-width:300px;
   max-width:700px;
 }
+
 .clear{
   clear: both;
 }
+.desktop-hide{
+  display: none;
+}
+
+@media  (max-width: 640px)
+{
+  body{
+    margin:2rem;
+  }
+  .profile{
+    float:none;
+    width:100%;
+    margin: auto;
+  }
+  nav{
+    letter-spacing: .15rem;
+    padding:.5rem;
+  }
+  .mobile-hide{
+    display: none;
+  }
+  .desktop-hide{
+    display:inline;
+  }
+}
+
 </style>
 
 </head>
@@ -105,20 +133,20 @@ nav a:hover{
 <body class="wrap">
 
 <nav>
-  <a href="#about">Mark McInerney</a>
+  <a href="#about" class="mobile-hide">Mark McInerney</a>
   <a href="#research">Research</a>
   <a href="#teaching">Teaching</a>
   <a href="{{ page.cv }}" class="nav">Download CV</a>
 </nav>
 <div class="scrolling-box">
 <section class="about page-section" id="about">
-  <h2>About</h2>
+  <h2>About <span class="desktop-hide">Mark McInerney</span></h2>
 
 <img src="{{page.picture}}" class="profile"/>
 {{ content }}
-<div class="clear"></div>
-</section>
 
+</section>
+<div class="clear"></div>
 <section class="research page-section" id="research">
   <h2>Research</h2>
 <div class="post-wrapper">
