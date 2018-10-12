@@ -8,5 +8,5 @@ file: "/uploads/Medicaid%20Expansion%20and%20the%20Opioid%20Epidemic%20-%20How%2
 layout: post
 ---
 
-*Under Review, Journal of Policy Analysis and Management*.
+*Revise and Resubmit, Journal of Policy Analysis and Management*.
 This study examines the impact of expanded health insurance coverage, resulting from the Patient Protection and Affordable Care Act of 2010, on opioid related mortality. I utilize variation in states’ decisions to expand Medicaid, in the timing of expansion and in the pre-policy uninsured rate at the state and county level. Opioid related mortality data are examined from 1999-2016 using the multiple cause of death files obtained from the Centers for Disease Control. My findings suggest the implementation of Medicaid expansion resulted in about a 30% reduction in heroin deaths, a 26% reduction in other unspecified narcotics deaths and a 14.5% increase in methadone related deaths. My study builds on recent work that shows increases in prescriptions to treat opioid use disorder in expanding states relative to non-expanding states.
