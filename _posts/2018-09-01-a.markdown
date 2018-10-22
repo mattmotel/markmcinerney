@@ -4,7 +4,7 @@ title: 'Medicaid Expansion and the Opioid Epidemic: How does increasing health i
 date: 2018-09-01 18:39:00 Z
 categories:
 - economics
-file: "/uploads/Medicaid%20Expansion%20and%20the%20Opioid%20Epidemic%20-%20How%20does%20health%20insurance%20impact%20the%20crisis.pdf"
+file: "/uploads/Medicaid%20Expansion%20and%20the%20Opioid%20Epidemic.pdf"
 layout: post
 ---
 
