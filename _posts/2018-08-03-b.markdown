@@ -3,9 +3,9 @@ title: The Earned Income Tax Credit, Poverty, and Health
 date: 2018-08-03 18:39:00 Z
 categories:
 - economics
-layout: post
 link: https://www.healthaffairs.org/do/10.1377/hpb20180817.769687/full/
-order: 1
+order: 2
+layout: post
 ---
 
 *Health Affairs* Policy Brief,
