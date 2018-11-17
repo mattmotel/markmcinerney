@@ -150,7 +150,8 @@ nav a:hover{
 <section class="research page-section" id="research">
   <h2>Research</h2>
 <div class="post-wrapper">
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | sort: 'order' %}
+  {% for post in sorted_posts   %}
 
     <div class="post">
       <h4>{{ post.title }}</h4>

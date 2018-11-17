@@ -5,6 +5,7 @@ categories:
 - economics
 layout: post
 link: https://www.healthaffairs.org/do/10.1377/hpb20180817.769687/full/
+order: 1
 ---
 
 *Health Affairs* Policy Brief,

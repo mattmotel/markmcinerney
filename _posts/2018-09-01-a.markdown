@@ -6,6 +6,7 @@ categories:
 - economics
 file: "/uploads/Medicaid%20Expansion%20and%20the%20Opioid%20Epidemic-f9f88c.pdf"
 layout: post
+order: 3
 ---
 
 *Revise and Resubmit, Journal of Policy Analysis and Management*.
