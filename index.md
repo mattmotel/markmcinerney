@@ -21,5 +21,5 @@ teaching:
 layout: page
 ---
 
-I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in the areas of Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic. I will be attending the upcoming ASSA Annual Meeting on January 4-6, 2019.
+I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in the areas of Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.
 
