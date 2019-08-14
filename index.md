@@ -21,5 +21,5 @@ teaching:
 layout: page
 ---
 
-I am a Ph.D. Candidate in the department of economics at the University of Connecticut.  I conduct research in the areas of Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.
+I am a Visiting Assistant Professor at Wesleyan University. I completed my PhD in economics at the University of Connecticut in 2019. I conduct research in the areas of Health Economics, Applied Microeconomics and Labor Economics. My research focuses on public policy, health services and how they affect health outcomes. Primarily, I have focused on health outcomes related to the opioid epidemic.
 
