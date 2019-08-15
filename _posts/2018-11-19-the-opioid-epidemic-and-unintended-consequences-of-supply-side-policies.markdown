@@ -1,7 +1,5 @@
 ---
-title: |-
-  The Opioid Epidemic and Unintended Consequences of Supply Side
-  Policies
+title: The Introduction of Abuse-Deterrent Opioids and Rates of Viral Infection
 date: 2018-11-19 18:05:00 Z
 order: 4
 ---
