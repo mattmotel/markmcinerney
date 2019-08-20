@@ -5,8 +5,10 @@ picture: "/uploads/mark2.jpg"
 teaching:
 - top-level: 'Visiting Assistant Professor, Wesleyan University: Fall 2019'
   nested-teachings:
-  - nested: 'ECON 222: Public Economics'
-  - nested: 'ECON 315: Labor Economics'
+  - nested: ECON 222
+    sub-arbitrary: Public Economics
+  - nested: ECON 315
+    sub-arbitrary: Labor Economics
 - top-level: 'Graduate Instructor, University of Connecticut: Summer 2019, Spring
     2019, Fall 2018, Spring 2018 and Fall 2017'
   nested-teachings:
