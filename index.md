@@ -3,11 +3,17 @@ title: About & Teaching
 cv: "/uploads/cv.pdf"
 picture: "/uploads/mark2.jpg"
 teaching:
-- top-level: 'Graduate Instructor, University of Connecticut: Spring 2019, Fall 2018,
-    Spring 2018 and Fall 2017'
+- top-level: 'Visiting Assistant Professor, Wesleyan University: Fall 2019'
+  nested-teachings:
+  - nested: 'ECON 222: Public Economics'
+  - nested: 'ECON 315: Labor Economics'
+- top-level: 'Graduate Instructor, University of Connecticut: Summer 2019, Spring
+    2019, Fall 2018, Spring 2018 and Fall 2017'
   nested-teachings:
   - nested: ECON 1201 Honors
     sub-arbitrary: Principles of Microeconomics
+  - nested: ECON 2441W
+    sub-arbitrary: Labor Economics (Writing Course)
 - top-level: 'Graduate Teaching Assistant, University of Connecticut: Spring 2017,
     Fall 2016 and Spring 2016'
   arbitrary: 
@@ -16,8 +22,6 @@ teaching:
     sub-arbitrary: Principles of Microeconomics
   - nested: ECON 1202
     sub-arbitrary: Principles of Macroeconomics
-- top-level: Teaching evaluations are available upon request
-  arbitrary: 
 layout: page
 ---
 
