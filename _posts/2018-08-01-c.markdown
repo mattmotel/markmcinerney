@@ -4,7 +4,7 @@ title: 'Opioid Use Disorder Treatment and Mortality: Evidence from Variation in 
 date: 2018-08-01 18:39:00 Z
 categories:
 - economics
-order: 2
+order: 1
 file: "/uploads/Opioid%20Use%20Disorder%20Treatment%20and%20Mortality.pdf"
 layout: post
 ---
